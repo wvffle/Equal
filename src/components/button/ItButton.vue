@@ -23,7 +23,7 @@ export default defineComponent({
     ItLoading,
   },
   props: {
-    type: {
+    kind: {
       type: String,
       default: Colors.NEUTRAL,
       validator: (value: Colors) => Object.values(Colors).includes(value),
@@ -54,8 +54,8 @@ export default defineComponent({
         'it-btn--text': props.text,
         'it-btn--loading': props.loading,
         [`it-btn--${props.size}`]: props.size,
-        ...(props.type
-          ? { [`it-btn--${props.type}`]: true }
+        ...(props.kind
+          ? { [`it-btn--${props.kind}`]: true }
           : { 'it-btn--neutral': true }),
         ...(props.icon
           ? {

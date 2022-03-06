@@ -5,7 +5,7 @@
       <it-button
         v-if="!hideControls"
         :disabled="this.disabled || disableController('minus')"
-        type="primary"
+        kind="primary"
         icon="remove"
         @click="decrease"
         @mousedown="press('minus')"
@@ -37,7 +37,7 @@
       <it-button
         v-if="!hideControls"
         :disabled="this.disabled || disableController('plus')"
-        type="primary"
+        kind="primary"
         icon="add"
         @click="increase"
         @mousedown="press('plus')"

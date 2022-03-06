@@ -10,11 +10,11 @@
       >
 
       <it-button>Button</it-button>
-      <it-button type="primary">Button</it-button>
-      <it-button type="success">Button</it-button>
-      <it-button type="danger">Button</it-button>
-      <it-button type="warning">Button</it-button>
-      <it-button type="black">Button</it-button>
+      <it-button kind="primary">Button</it-button>
+      <it-button kind="success">Button</it-button>
+      <it-button kind="danger">Button</it-button>
+      <it-button kind="warning">Button</it-button>
+      <it-button kind="black">Button</it-button>
     </div>
 
     <div>
@@ -366,7 +366,7 @@
         <template #actions>
           <it-button @click="modal = false">Cancel</it-button>
           <it-button
-            type="primary"
+            kind="primary"
             @click="$Message({ text: 'Created' }), (modal = false)"
             >Create</it-button
           >
