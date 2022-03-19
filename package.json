@@ -1,16 +1,16 @@
 {
   "name": "@waff/equal",
-  "version": "0.79.5",
+  "version": "0.79.6",
   "homepage": "https://quatrochan.github.io/Equal/",
   "description": "Equal is a Vue 3 UI library based on TypeScript",
   "author": {
     "name": "Yan Savinov",
     "email": "yan.savinov.hire@gmail.com"
   },
-  "main": "./dist/equal-vue.es.js",
-  "module": "./dist/equal-vue.es.js",
+  "main": "./dist/equal.es.js",
+  "module": "./dist/equal.es.js",
   "exports": {
-    ".": "./dist/equal-vue.es.js",
+    ".": "./dist/equal.es.js",
     "./dist/style.css": "./dist/style.css"
   },
   "unpkg": "dist/equal.umd.min.js",
